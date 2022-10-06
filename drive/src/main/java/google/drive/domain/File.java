@@ -34,6 +34,12 @@ public class File  {
     
     
     private String name;
+    
+    
+    
+    
+    
+    private String size;
 
     @PostPersist
     public void onPostPersist(){

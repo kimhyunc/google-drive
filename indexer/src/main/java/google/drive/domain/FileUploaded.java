@@ -9,6 +9,9 @@ import java.util.*;
 public class FileUploaded extends AbstractEvent {
 
     private Long id;
+    private String type;
+    private String name;
+    private String size;
 }
 
 
